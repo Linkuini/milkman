@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MMtechdemo.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{13223602-133C-46A0-9425-B224B3B0E191}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MMtechdemo.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MMtechdemoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{B979EA9C-BB08-407D-B186-C0411E5F1946}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MMtechdemo">
+			<UniqueIdentifier>{BE840A54-A865-4D10-B69B-602EA0B2A1A2}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\MMtechdemo\Ball_statemachine.cpp">
+			<Filter>Source\MMtechdemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MMtechdemo\Ball_statemachine.h">
+			<Filter>Source\MMtechdemo</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\MMtechdemo\MMtechdemo.Build.cs">
+			<Filter>Source\MMtechdemo</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MMtechdemo\MMtechdemo.cpp">
+			<Filter>Source\MMtechdemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MMtechdemo\MMtechdemo.h">
+			<Filter>Source\MMtechdemo</Filter>
+		</ClInclude >
+		<Filter Include="Source\MMtechdemo\Resources">
+			<UniqueIdentifier>{10ABEFA2-9B2E-4754-A1D4-484A32F31B41}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\MMtechdemo\Resources\Windows">
+			<UniqueIdentifier>{90574C07-4280-40C2-AEF5-E2322734025F}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\MMtechdemo\Resources\Windows\MMtechdemo.rc">
+			<Filter>Source\MMtechdemo\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
